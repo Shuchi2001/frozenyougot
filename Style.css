@@ -1,0 +1,485 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size:x-large;
+}
+.container{
+    margin-top: 0px;
+    height: 100%;
+    width :100%;
+}
+.navbar{
+    background-color: #eeebec;
+    display: flex;
+    padding: 1px 10px;
+    height: 15vh;
+    align-items: center;
+}
+.logo{
+    border: solid 2px none;
+    margin-top: 30px;
+    margin-left: 330px;
+    width: 150PX;
+    height: 50px;
+}
+.nav a{
+    color: rgb(97, 91, 91);
+    text-decoration:none;
+    font-size: 20px;
+}
+.nav a:hover{
+    color: red;
+}
+.nav{
+    display: flex;
+    margin-left: auto;
+    width: 30%;
+    justify-content: space-evenly;
+}
+.nav li{
+    list-style: none;
+}
+.body_part{
+   position: relative;
+   background-image: url(./Images/bg-home.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   width: 100%;
+}
+.crcl{
+    position: absolute;
+    border: solid 2px none;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 950px;
+    margin-top: 450px;
+    background-color: rgb(193, 178, 21); 
+}
+.crcl1{
+    position: absolute;
+    border: solid 2px none;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 965px;
+    margin-top: 440px;
+    background-color: rgba(234, 14, 153, 0.763);
+    text-align: center;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}.circle1 a{
+    color: white;
+}
+.body1{
+    position: relative;
+    border: solid 2px none;
+    width: 100%;
+    height: 250px;
+    background-color: #eeebec;
+}
+.text{
+    position: absolute;
+    border: solid 2px none;
+    width: 500px;
+    height: 203px;
+    margin-top: 47px;
+    margin-left: 22%;   
+}
+.img{
+    background-image: url(./Images/yogurt.jpg);
+    position: absolute;
+    border: solid 2px none;
+    margin-top: 50px;
+    margin-left: 60%;
+    width: 300px;
+    height: 200px;
+}
+.text1{
+    border: solid 2px none;
+    height: 50px;
+    color: #7A6666;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight:bold ;
+    font-style: italic;
+    font-family: cursive;
+}
+.text2{
+    color: #E32A62;
+    border: solid 2px none;
+    height: 50px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight:bold ;
+}
+.text3{
+    border: solid 2px none;
+    color: #7A6666;
+    height: 100px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.body2{
+    border: solid 2px none;
+    height: 170px;
+    background-color: #c8c10d;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    position: relative;
+    border: solid 2px none;
+    width: 15%;
+    height: 170px;
+}
+.ij{
+    margin-left: 25%;
+    border: solid 2px none;
+    width: 50%; 
+    height: 50%;
+    font-size: 24px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.t{
+    border: solid 2px none;
+    width: 100%; 
+    height: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+} 
+.footer{
+    background-color: #c41857d6;
+    height: 40vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-links a{
+    color: #f4e8e8;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-links a:hover{
+    color: rgb(16, 14, 14);
+}
+.social i{
+    font-size: 33px;
+}
+.fa-twitter{
+    color: skyblue;
+}
+.fa-facebook{
+    color: white;
+}
+
+.social{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+/*About Page*/
+.bodypart{
+   
+    height: auto;
+}
+.about{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #c8c10d;
+    color: black;
+    margin-top: 0vh;
+    height: 75px;
+}
+.about h2{
+    font-size: 60px;
+}
+.about_bg{
+    border: solid 2px none;
+    height: 250px;
+    background-image: url(./Images/yogurt.jpg);
+    background-color: #eeebec;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about_text{
+    padding: 60px;
+    border: solid 2px none;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.para{
+    text-align: center;
+    background-color: #eeebec;
+    border: solid 2px none;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+}
+.para1{
+    border: solid 2px none;
+    height: auto;
+    width: 600px;
+    padding: 10px;
+}
+.para1 h1{
+    border: solid 0px;
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #CB3362;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.para1 p{
+    border: solid 2px;
+    height: auto; 
+    color: #7A6666;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.para h1{
+    border: solid 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto; 
+    color: #CB3362;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.para p{
+    border: solid 2px;
+    height: auto; 
+    color: #7A6666;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+/*Blog part*/
+.blog{
+    border: solid 2px;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+}
+.blog1{
+    border: solid 2px;
+    height: auto; 
+    width: 600px;
+    margin: 80px;
+}
+.blog2{
+    margin: 80px;
+    padding: 20px;
+    border: solid 2px;
+    background-color: #eeebec;
+    height: 700px; 
+    width: 250px;  
+    display: block;
+    justify-content: center;
+}
+.name1{
+    text-align: center;
+    border: solid 2px;
+    height: auto; 
+    font-weight: bolder;
+    color: #CB3362;
+}
+.class_img{
+    border: solid 2px;
+    background-image: url(./Images/on-diet.png);
+    height: 200px; 
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 22px;  
+    margin-top: 22px;
+}
+.class3{
+    border: solid 2px;
+    text-align: center;
+}
+ h1{
+    border: solid 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto; 
+    color: #CB3362;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+}
+p{
+    border: solid 2px;
+    height: auto; 
+    color: #7A6666;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.class4 {
+    text-align: center;
+}
+.class4 a{
+    padding: 20px;
+    font-weight: bold;
+    color: #746666;
+    border: solid 2px #7A6666;
+    text-decoration: none;
+}
+.class4 a:hover{
+    color: white;
+    background-color: #c8c10d;
+}
+.blog9{
+    border: solid 2px none;
+    height: 500px;
+    display: flex;
+}
+.bloga_img{
+    border: solid 2px none;
+    background-image: url(./Images/new-chills.png);
+    height: 200px; 
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.bloga_img1{
+    border: solid 2px none;
+    background-image: url(./Images/berries.png);
+    height: 200px; 
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.bloga_text{
+    border: solid 2px none;
+    width: 400px;
+}
+.bloga_text a{
+    padding: 20px;
+    font-weight: bold;
+    color: #746666;
+    border: solid 2px #7A6666;
+    text-decoration: none;
+}
+.bloga_text a:hover{
+        color: white;
+        background-color: #c8c10d;
+}
+.blog_read{
+    border: solid 2px none  ;
+    text-align: center;
+}
+.contact_img{
+    border: solid 2px black;
+    height: 250px;
+    background-image: url(./Images/map.jpg);
+
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    border: solid 2px none;
+    height: 150px;
+    width: 60%;
+    background-color: rgba(240, 248, 255, 0.783);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location img{
+    border: solid 2px none;
+    margin: 20px;
+}
+.comment{
+    border: solid 2px none;
+    height: auto;
+    display: flex;
+    justify-content: center;  
+}
+.inquary{
+    margin: 40px;
+    border: solid 2px none;
+    height: auto;
+    width: 450px;
+}
+.para2{
+    border: solid 2px none;
+    height: 300px;  
+    width: 200px;
+    margin: 60px;
+    text-align: center;
+    background-color: #eeebec;
+    padding: 20px;
+}
+.pq{
+    margin: 10px;
+    height: 45px;
+    width: 400px;
+}
+.pq1{
+
+    margin: 10px;
+    height: 150px;
+    width: 400px;
+}
+.send{
+    border: solid 2px black;
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+}
+.send:hover{
+    background-color: #c8c10d;
+}
+/*product page*/
+.product_box{
+    border: solid 0px;
+    height: 300px;
+    width: 350px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_box h1{
+    display: block;
+    justify-content: center;
+    color: #CB3362;
+
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.product_text {
+    border: solid opx;
+    color:#746666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+    font-size: 24px;
+    font-weight: normal;
+    justify-content: center;
+}
+.product_text h1{
+    text-align: center;
+}
+
